@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="title">DOM Introduction</h1>
+    <button onclick="add(3, 9)">Click Me</button>
+    <ul>
+        <li id = "rows">DOM Methods Example</li>
+        <li id = "rows">DOM Properties Example</li>
+    </ul>
+    <input>
+    <script>
+        function edit(element, match, replacer) {
+            const text = element.textContent;
+            element.textContent = text.replaceAll(match, replacer);
+
+        }
+    </script>
+</body>
+</html>
